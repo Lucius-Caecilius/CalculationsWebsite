@@ -6,33 +6,57 @@
     </head>
     <body>
         <h1>The website for all your calculation needs</h1>
-        <div class="nav">
-            <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search" title="Search">
+        <br>
+        <br>
+        <div id="Maths" class="option">
+            <h3 class="text">Maths</h3>
+            <p class="text">Standard Mathematical Operations</p>
+            <div class="Button">
+                <a href="./subpages/maths/maths.html">
+                    <button>
+                        Maths
+                    </button>    
+                </a>
+            </div>
         </div>
-        <ul id="menu">
-            <li><a href="./subpages/maths/maths.html">Quadratic formula</a></li>
-            <li><a href="./subpages/maths/maths.html">Finding Nth Term</a></li>
-            <li><a href="./subpages/maths/maths.html">Pythagoras</a></li>
-            <li><a href="./subpages/maths/maths.html">Binomial Expansion</a></li>
-            <li><a href="./subpages/maths/maths.html">Sine rule</a></li>
-            <li><a href="./subpages/maths/maths.html">Cosine rule</a></li>
-            <li><a href="./subpages/astronomy/astronomy.html">Absolute Magnitude</a></li>
-            <li><a href="./subpages/astronomy/astronomy.html">Apparent Magnitude</a></li>
-        </ul>
-        <h3>Maths</h3>
-        <p>Standard Mathematical Operations</p>
-        <a href="./subpages/maths/maths.html">
-            <button>
-                Maths
-            </button>    
-        </a>
-        <h3>Astronomy</h3>
-        <p>Cosmological Operations</p>
-        <a href="./subpages/astronomy/astronomy.html">
-            <button onclick="">
-                Astronomy
-            </button>    
-        </a>
+
+        <div id="Astronomy" class="option">
+            <h3 class="text">Astronomy</h3>
+            <p class="text">Cosmological Operations</p><br>
+            <div class="Button">
+                <a href="./subpages/astronomy/astronomy.html">
+                    <button>
+                        Astronomy
+                    </button>    
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="Button">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Search</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="text" id="myInput" onkeyup="filterFunction()" placeholder="Search..." title="Search">
+                    <a href="./subpages/maths/maths.html">Quadratic formula</a>
+                    <a href="./subpages/maths/maths.html">Finding Nth Term</a>
+                    <a href="./subpages/maths/maths.html">Pythagoras</a>
+                    <a href="./subpages/maths/maths.html">Binomial Expansion</a>
+                    <a href="./subpages/maths/maths.html">Sine rule</a>
+                    <a href="./subpages/maths/maths.html">Cosine rule</a>
+                    <a href="./subpages/astronomy/astronomy.html">Absolute Magnitude</a>
+            </div>
+        </div>
         <script src="./script.js"></script>
     </body>
 </html>
