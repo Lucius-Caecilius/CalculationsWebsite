@@ -6,17 +6,35 @@
     <body>
         <h1>Maths is fun</h1>
         <br>
+
+        <!-- Pythagoras -->
         <h3>Pythagoras</h3>
+        <!-- Inputs -->
+        <input type="checkbox" id="hypotenuse" name="hypotenuse status">
+        <label for="hypotenuse">Do you want to find the hypotenuse?</label><br>
+        <form action="maths.html" method="GET">
+            <input type="text" name="side 1" id="side_1" placeholder="Enter the known side">
+            <input type="text" name="side 2" id="side_2" placeholder="Enter the other known side">
+            <button type="button" onclick="pythagoras('side_1', 'side_2', 'hypotenuse')">Submit</button>
+        </form>
+        <!-- Outputs -->
+        <p id="unknown_side"></p>
+
+        <!-- Qudratic Formula -->
         <h3>Quadratic Formula</h3>
         <p>Enter the a, b and c values to find x</p>
+        <!-- Inputs -->
         <form action="maths.html" method="GET">
             <input type="text" name="a term" id="a_term_quadratic" placeholder="Enter the a term">
             <input type="text" name="b term" id="b_term_quadratic" placeholder="Enter the b term">
             <input type="text" name="c term" id="c_term_quadratic" placeholder="Enter the c term">
-            <button type="button" onclick="input_from_user('a_term_quadratic', 'b_term_quadratic', 'c_term_quadratic')">Submit</button>
+            <button type="button" onclick="quadratic_formula('a_term_quadratic', 'b_term_quadratic', 'c_term_quadratic')">Submit</button>
         </form>
+        <!-- Outputs -->
         <p id="x_value_a"></p>
         <p id="x_value_b"></p>
+
+        <!-- Finding Nth term -->
         <h3>Finding the Nth Term</h3>
         <script src="./script.js"></script>
     </body>
