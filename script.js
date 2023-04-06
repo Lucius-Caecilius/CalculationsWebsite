@@ -1,9 +1,10 @@
 console.log("Hello World")
-function myFunction(){
+
+function dropButton(){
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-function filterFunction() {
+function filterContent() {
     var input, filter, a, i;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
