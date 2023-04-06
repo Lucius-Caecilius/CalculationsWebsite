@@ -1,0 +1,21 @@
+Maths
+- Pythagoras
+- Quadratic formula
+- Finding Nth Term
+- Sine + Cosine rules
+- Areas and volumes of shapes
+
+Further Maths
+- Binomial Expansion
+
+Astronomy
+- Finding Absolute and Apparent Magnitude
+
+Physics
+- All formulas
+
+Features
+- Sepaprate selections for each subject
+    > Div boxes you click on
+- Search Bar
+    > You can search for a specific task from the menu
